@@ -1,0 +1,27 @@
+Host name
+echo "hostname" > /etc/hostname
+hostname -F /etc/hostname
+
+Static IP
+<edit /etc/network/interfaces>
+iface eth0 inet static
+address ip
+netmask 255.255.255.0
+gateway 192.168.1.1
+<save and quit>
+
+Desktop user
+adduser -g "groupname" username
+adduser "username" wheel
+apk add doas
+<edit /etc/doas.d/doas.conf>
+permit persist :wheel
+<save and quit>
+<switch user>
+
+Repos
+<edit /etc/apk/repositories>
+uncomment community
+<save and quit>
+doas apk update
+doas apk upgrade
