@@ -1,0 +1,53 @@
+DevOps:
+The Phoenix Project: A Novel about IT, DevOps, and Helping Your Business Win
+The DevOps Handbook: How to Create World-Class Agility, Reliability, and Security in Technology Organizations
+Effective DevOps: Building a Culture of Collaboration, Affinity, and Tooling at 
+
+Scale
+Site Reliability Engineering: How Google Runs Production Systems
+
+Infrastructure as Code:
+
+Terraform: Up & Running: Writing Infrastructure as Code
+Terraform in Action
+Terraform and AWS (4 part LiveProject from Manning Publishing)
+Ansible for DevOps: Server and Configuration Management for Humans by Jeff Geerling
+
+SysAdmin
+UNIX and Linux System Administration Handbook
+Red Hat RHCSA 8 Cert Guide: EX200 (Certification Guide)
+How Linux Works, 3rd Edition: What Every Superuser Should Know
+
+Git
+Pro Git by Scott Chacon
+Version Control with Git, 3rd Edition
+
+Docker / Kubernetes
+Docker: Up & Running: Shipping Reliable Containers in Production
+Docker in Practice, Second Edition
+Docker in a Month of Lunches
+Kubernetes up and running
+Cloud Native DevOps with Kubernetes: Building, Deploying, and Scaling Modern Applications in the Cloud
+
+Python:
+Python Crash Course, 2nd Edition: A Hands-On, Project-Based Introduction to Programming
+Learning Python, 5th Edition
+Python for DevOps: Learn Ruthlessly Effective Automation
+
+Go:
+Cloud Native Go: Building Reliable Services in Unreliable Environments
+Learning Go: An Idiomatic Approach to Real-World Go Programming
+
+Security:
+Securing DevOps: Security in the Cloud
+
+Cloud:
+Learning AWS, second edition
+AWS Certified DevOps Engineer - Professional Certification and Beyond
+Implementing Azure DevOps Solutions
+
+note: most the AWS/Azure books are very outdated and very basic. I’ve struggled to find many good ones. I did find that there is a lot of good stuff from acloud.guru (subscription), which maintains a lot of good courses of up to date information on all three major cloud providers and Linux distros). Comment below if you have any good books, I’d love to look into them.
+
+There’s much more. I didn’t touch CI/CD or networking in my list. There’s also a lot of other great alternatives. Python alone has more books available than you can ever master. I also didn’t touch cloud. You’ll want to choose a cloud provider to master. I’d work towards a certification with them and read books or take courses towards that cert. Obviously AWS is the biggest. But I’d give Azure a serious consideration. In my last job hunt I was shocked at how many jobs needed Azure. Most companies are still willing to hire AWS experts for Azure work, but if you’re already an Azure expert you would stand out like a shining beacon.
+
+Good luck. Depending on where you are right now in your journey. You might want to consider a Python software engineering job or going into Sysadmin work while you build up skills as a DevOps engineer. It takes a lot of time and you need to know a lot. There aren’t a ton of “junior” DevOps jobs. So sometimes sysadmin or software engineering is where you need to start. On my DevOps team, all of us came from one of those two backgrounds. About 2/3 of us were software engineers, the rest were sysadmins/database admins/ and network admins before getting into DevOps.
