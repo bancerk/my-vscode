@@ -1,0 +1,10 @@
+doas apk add python3 ansible
+<install python3 to worker nodes>
+
+ssh-keygen
+ssh-copy-id {ip}
+
+ansible all -m ping
+
+ansible alpine -a "apk -U upgrade" -bK --become-method=doas
+ansible alpine -a "poweroff" -bK --become-method=doas
