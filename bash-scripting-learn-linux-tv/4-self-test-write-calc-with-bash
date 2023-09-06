@@ -1,0 +1,33 @@
+#!bin/bash
+
+echo "Hello $USER, welcome to the calculator."
+
+echo "Please type in what type of calculation you want to do:"
+echo "Type + for addition"
+echo "Type - for subtraction"
+echo "Type / for division"
+echo "My developer can't code for multiplication yet"
+
+read -p "" exprtype
+
+echo "Please enter your first number:"
+
+read -p "" num1
+
+echo "Please enter your second number:"
+
+read -p "" num2
+
+echo "Is this the calculation you want to do ?:"
+
+echo "$num1 $exprtype $num2"
+
+read -p "Continue? (Y/N): " confirm && [[ $confirm == [yY] || $confirm == [yY][eE][sS] ]] || exit 1
+
+expr $num1 $exprtype $num2
+
+#what i learned:
+#calling for user input and calling for user confirmation
+#They were more complicated than I initially thought
+
+#still can't do multiplications
