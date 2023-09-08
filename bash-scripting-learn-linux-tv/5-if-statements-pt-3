@@ -1,0 +1,13 @@
+#!/bin/bash
+
+command=/usr/bin/btop
+
+if [ -f $command ]
+then
+    echo "$command is available, let's run it..."
+else
+    echo "$command is NOT available, installing it..."
+    yay -Syu btop -y
+fi
+
+$command

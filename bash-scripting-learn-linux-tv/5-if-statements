@@ -2,9 +2,14 @@
 
 mynum=200
 
-if [ $mynum -eq 200 ]
+if [ ! $mynum -eq 200 ]
+# ! reverses the equation
 then
     echo "The condition is true"
 else
     echo "The variable does not equal to 200"
 fi
+
+# -eq equals
+# -ne not equal
+# -gt greater than
