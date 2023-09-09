@@ -1,0 +1,17 @@
+lsusb
+lists usb devices, -t arg for tree view
+
+watch -d lsusb
+lists usb devices and checks for updated every 2 seconds, highlighting changes
+
+lspci
+lists pci bus
+
+lscpu
+self explanatory at this point
+
+lsblk
+bulk storage devices
+
+hwinfo
+better to pipe this into a text file, huge info dump
