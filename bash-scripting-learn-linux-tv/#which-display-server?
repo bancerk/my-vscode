@@ -2,6 +2,6 @@
 
 echo $XDG_SESSION_TYPE
 
-#or
+# or
 
 env | grep "TYPE"
