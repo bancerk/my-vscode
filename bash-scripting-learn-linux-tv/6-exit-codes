@@ -1,0 +1,7 @@
+Bash exit codes:
+
+0 = successful
+127 = command not found
+
+check if previous command was successful:
+echo $?
