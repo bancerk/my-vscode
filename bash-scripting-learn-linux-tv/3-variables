@@ -1,4 +1,4 @@
-#variables are tied to the session, nonpersistant
+#variables are tied to the session, nonpersistent
 #they get wiped when you exit bash or logout
 
 #newvariable="var"
@@ -15,3 +15,9 @@ echo "I'm $myage years old."
 echo 'Hello, my name is $myname.'
 echo 'I am $myage years old.'
 #see the difference between quotes
+
+#for persistent changes (user specific) edit ~/.bashrc
+#to load the environment variable changes you made
+#type "source .bashrc" to the shell prompt
+#non-user specific environment variables are
+#stored in /etc/environment directory
