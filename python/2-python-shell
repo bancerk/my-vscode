@@ -1,0 +1,4 @@
+run "python3" in bash shell
+opens REPL shell (python shell)
+CTRL+D to exit or type "exit()"
+can do math out of the box (multiplication is strange)
