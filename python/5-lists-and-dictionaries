@@ -1,0 +1,28 @@
+# this is a list
+turtles = ['michelangelo','raphael','leonardo','donatello']
+
+print(turtles[1])
+# lists start counting at 0
+
+print(turtles[3])
+
+turtles.pop(1)
+# removes an item from list
+
+print(turtles)
+
+turtles.append("splinter")
+# adds an item to the list at the end
+
+print(turtles)
+
+# this is a dictionary
+turtles = {'michelangelo':'party dude','raphael':'cool but rude','leonardo':'leader','donatello':'geek'}
+
+print(turtles['donatello'])
+
+del turtles['michelangelo']
+# delete dictionary entry
+
+turtles["shredder"] = "mean dude"
+# add dictionary entry at the end
