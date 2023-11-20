@@ -1,0 +1,15 @@
+>>>> help()
+opens help console in python shell
+
+help> print
+basicly man page for print with examples
+
+help> list
+
+help> q
+quits back to python shell
+
+>>>>help(print)
+opens "print" help page without opening help console (keep in python shell)
+
+  

@@ -1,0 +1,35 @@
+my_string = "ninja's are cool"
+# type(my_string)
+# output: class is string
+
+my_num = 256
+# type (my_num)
+# output: class is integer
+
+457 + my_num
+# output: 713
+
+my_string + " and really awesome"
+# output: "ninja's are cool and really awesome"
+
+my_num + my_string
+# output: unsupported operand between types integer and string
+
+my_num_1 = "256"
+my_num_2 = 320
+# my_num_1 + my_num_2
+# output: error, must be str, not int
+
+my_num_1 = int(my_num_1)
+# now "my_num_1" is an integer
+my_num_1 = str(my_num_1)
+# now "my_num_1" is a string
+my_num_2 = str(my_num_2)
+# now "my_num_2" is a string
+
+# my_num_1 + my_num_2
+# output: 256320
+
+my_float = float(my_num_1)
+# type(my_float)
+# output: 256.0

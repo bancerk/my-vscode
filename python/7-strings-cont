@@ -1,0 +1,28 @@
+# print("this is a string")
+
+# msg = "this is a string"
+# print(msg)
+
+# print(msg[3])
+# output: s (from thi"S")
+
+# print([1:5])
+# output: his
+
+# print(msg.upper())
+#output: THIS IS A STRING
+
+# msg = "UPPER"
+# print(msg)
+# output: UPPER
+# print(msg.lower())
+# output: upper
+
+# mystring1 = "This is "
+# mystring2 = "SPARTA!!!"
+# mystring3= mystring1 + mystring2
+# print(mystring3)
+# output: This is SPARTA!!!
+# print("this is... \nSPARTA!!!")    OR print(mystring1 + "\n" + mystring2)
+# output: this is...
+#        SPARTA!!!
