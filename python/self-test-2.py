@@ -23,4 +23,4 @@ elif(my_op == "/"):
 elif(my_op == "%"):
     print(num_1 % num_2)
 else:
-    print("Invalid operation")
+    print("Invalid operation") 
