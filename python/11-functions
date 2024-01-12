@@ -1,0 +1,10 @@
+#!/usr/bin/python3
+
+# functions are a way to repeat the same process without rewriting the same code
+
+def my_func():
+    mynum1 = 10
+    mynum2 = 30
+    print(mynum1+mynum2)
+
+my_func()
